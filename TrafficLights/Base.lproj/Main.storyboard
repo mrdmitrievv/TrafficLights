@@ -68,6 +68,12 @@
                             <constraint firstItem="MvF-9P-JPm" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="100:667" id="wql-go-HS5"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="greenLight" destination="AXT-cX-8qE" id="Rq1-Vv-bIc"/>
+                        <outlet property="redLight" destination="MvF-9P-JPm" id="maz-E7-l4K"/>
+                        <outlet property="startButton" destination="dDt-DQ-oXz" id="gXl-Kd-Bsh"/>
+                        <outlet property="yellowLight" destination="8Ub-RZ-FSU" id="KdY-e3-Tgv"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
