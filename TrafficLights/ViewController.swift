@@ -36,6 +36,13 @@ class ViewController: UIViewController {
         greenLight.alpha = lightIsOff
     }
     
+    override func viewWillLayoutSubviews() {
+        redLight.layer.cornerRadius = redLight.frame.width / 2
+        yellowLight.layer.cornerRadius = redLight.frame.width / 2
+        greenLight.layer.cornerRadius = redLight.frame.width / 2
+        
+        print("Размер стороны доступный из viewWillLayoutSubviews: ", redLight.frame.height)
+    }
     
     @IBAction func startButtonPressed() {
         
